@@ -62,7 +62,7 @@ body {
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
-	color: #333333;
+	color: #ffffff;
 }
 
 /* ------------------------------------------------------------------- 
@@ -77,7 +77,8 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus {
-	color: #000000;
+	color: #043f3b;
+	/*font-size: 1.8rem;*/
 }
 
 /* ===================================================================
@@ -995,7 +996,7 @@ header .social-links ul li a:focus {
 }
 
 #home.home-particles {
-	background: #020507;
+	background: #1c2b31;
 	overflow: hidden;
 }
 #home.home-particles .pg-canvas {
@@ -1075,61 +1076,6 @@ header .social-links ul li a:focus {
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.8rem;
 	max-width: 400px;
-}
-
-.scroll-icon {
-	position: absolute;
-	width: 200px;
-	height: 90px;
-	padding-right: 3.5rem;
-	bottom: 0;
-	right: 20px;
-	text-align: right;
-	border-right: 1px dashed rgba(255, 255, 255, 0.3);
-}
-.scroll-icon .scroll-text {
-	font-family: "roboto-bold", sans-serif;
-	font-size: 1.5rem;
-	color: #FFFFFF;
-	margin-top: 1.5rem;
-}
-.scroll-icon .end-top {
-	content: "";
-	background-color: #FFFFFF;
-	width: 7px;
-	height: 7px;
-	border-radius: 50%;
-	display: inline-block;
-	vertical-align: top;
-	position: absolute;
-	top: -6px;
-	right: -4px;
-}
-.scroll-icon .mouse {
-	position: absolute;
-	height: 38px;
-	width: 25px;
-	border: 3px solid #FFFFFF;
-	border-radius: 12px;
-	right: -13px;
-	top: 10px;
-	display: block;
-	text-align: center;
-	z-index: 700;
-	-webkit-animation: vertical 3s ease infinite;
-	animation: vertical 3s ease infinite;
-}
-.scroll-icon .mouse::before {
-	content: "";
-	display: block;
-	height: 5px;
-	width: 3px;
-	background-color: #FFFFFF;
-	position: absolute;
-	top: 6px;
-	left: 50%;
-	margin-left: -1.5px;
-	border-radius: 2px;
 }
 @-webkit-keyframes vertical {
 	0%, 60%, 80%, 100% {
@@ -1252,7 +1198,7 @@ header .social-links ul li a:focus {
 	background-size: cover;
 	padding: 10.2rem 0 9rem;
 	position: relative;
-	color: rgba(17, 17, 17, 0.7);
+	color: rgba(17, 17, 17, 0.6);
 }
 #info .info-overlay {
 	position: absolute;
@@ -1261,7 +1207,7 @@ header .social-links ul li a:focus {
 	width: 100%;
 	height: 100%;
 	background-color: #FFFFFF;
-	opacity: .7;
+	opacity: .6;
 }
 
 /* tabs 
