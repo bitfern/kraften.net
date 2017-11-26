@@ -1,4 +1,4 @@
-1. Change text on "Coming soon"
+1. Change text on "Coming soon"  -DONE
 2. Change Favicon
 3. Fix Webserver
 4. Fix Domain
