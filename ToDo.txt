@@ -1,0 +1,8 @@
+1. Change text on "Coming soon"
+2. Change Favicon
+3. Fix Webserver
+4. Fix Domain
+5. Adjust caching on Cloudflare
+6. Share on socialmedia
+
+Start work on main site.
